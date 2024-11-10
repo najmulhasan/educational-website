@@ -7,7 +7,7 @@
     <title>Educational Website</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">\
+    <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome CSS for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css" />
@@ -17,7 +17,7 @@
 
     <!-- Header with Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary
         shadow-lg fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">Educational Website</a>
@@ -38,11 +38,11 @@
     </header>
 
     <!-- Carousel -->
-    <section id="carousel" class="mt-5 pt-5">
+    <section id="carousel" class=" container mt-5 pt-5">
         <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/images/carusel/carusel-1.jpg" class="d-block w-100" alt="Slide 1">
+                    <img src="images/carusel/carusel-1.jpg" d-block w-100 h-50" alt="Slide 1">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Slide 1 Headline</h5>
                         <p>Subtitle or description.</p>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/carusel/carusel-2.jpg" class="d-block w-100" alt="Slide 2">
+                    <img src="images/carusel/carusel-2.jpg" d-block w-100 h-" alt="Slide 2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Slide 2 Headline</h5>
                         <p>Subtitle or description.</p>
@@ -58,11 +58,12 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/carusel/carusel-3.jpg" class="d-block w-100" alt="Slide 3">
+                    <img src="images/carusel/carusel-3.jpg" class="d-block w-100 h-50" alt="Slide 3">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Slide 3 Headline</h5>
                         <p>Subtitle or description.</p>
                         <a href="#" class="btn btn-primary">Learn More</a>
+
                     </div>
                 </div>
             </div>
@@ -81,29 +82,75 @@
     <section id="content" class="container py-5">
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
-                <div class="card shadow-lg">
-                    <img src="/images/course/course-1.png" class="card-img-top" alt="Content 1">
+                <div class="card shadow-lg h-100">
+                    <img src="images/course/course-1.png" class="card-img-top" alt="Content 1">
                     <div class="card-body">
-                        <h5 class="card-title">Content Title 1</h5>
-                        <p class="card-text">Short description of the content.</p>
+                        <h5 class="card-title">UX/UI Design</h5>
+                        <p class="card-text text-wrap">The UI/UX Design Specialization brings a design-centric approach
+                            to user interface and user experience design, and offers practical, skill-based instruction
+                            centered around a visual communications perspective, rather than on one focused on marketing
+                            or programming alone.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                     <img src="images/course/course-2.png" class="card-img-top" alt="Content 2">
                     <div class="card-body">
-                        <h5 class="card-title">Content Title 2</h5>
-                        <p class="card-text">Short description of the content.</p>
+                        <h5 class="card-title">React JS</h5>
+                        <p class="card-text text-wrap">React, also known as ReactJS, is a popular and powerful
+                            JavaScript library used for building dynamic and interactive user interfaces, primarily for
+                            single-page applications (SPAs). It was developed and maintained by Facebook and has gained
+                            significant popularity due to its efficient</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg  h-100">
                     <img src="images/course/course-3.png" class="card-img-top" alt="Content 3">
                     <div class="card-body">
-                        <h5 class="card-title">Content Title 3</h5>
-                        <p class="card-text">Short description of the content.</p>
+                        <h5 class="card-title">Laravel</h5>
+                        <p class="card-text text-wrap">Laravel is a free and open-source PHP-based web framework for
+                            building web applications. It was created by Taylor Otwell and intended for the development
+                            of web applications following the model–view–controller (MVC) architectural pattern and
+                            based on Symfony.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-lg h-100">
+                    <img src="images/course/course-4.png" class="card-img-top" alt="Content 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nest JS</h5>
+                        <p class="card-text text-wrap">Background. Next. js is a React framework that enables several
+                            extra features, including server-side rendering and generating static websites. React is a
+                            JavaScript library that is traditionally used to build web applications rendered in the
+                            client's browser with JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-lg h-100">
+                    <img src="images/course/course-5.png" class="card-img-top" alt="Content 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Node JS</h5>
+                        <p class="card-text text-wrap">Node.js is an open-source and cross-platform JavaScript runtime
+                            environment. It is a popular tool for almost any kind of project! Node.js runs the V8
+                            JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to
+                            be very performant.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-lg h-100">
+                    <img src="images/course/course-6.png" class="card-img-top" alt="Content 3">
+                    <div class="card-body">
+                        <h5 class="card-title">MERN STACK</h5>
+                        <p class="card-text text-wrap">MERN is one of several variations of the
+                            MEAN stack
+                            (MongoDB, Express, Angular, Node), where the traditional Angular.js front-end framework is
+                            replaced with React.js. Other variants include MEVN (MongoDB, Express, Vue, Node), and
+                            really any front-end JavaScript framework.</p>
                     </div>
                 </div>
             </div>
@@ -113,17 +160,17 @@
     <!-- About Section -->
     <section id="about" class="container py-5">
         <h2 class="text-center mb-4">About Us</h2>
-        <div class="row align-items-center">
-            <div class="col-md-6">
+        <div class="row align-items-center h-100">
+            <div class="col-md-6 md-h-100 py-4">
                 <img src="images/cover/cover-1.png" class="img-fluid" alt="About Us">
             </div>
-            <div class="col-md-6">
-                <p class="para text-justify">Our mission is to provide quality services that meet the needs of our
+            <div class="col-md-6" w-50>
+                <p class="para text-wrap md-w-50">Our mission is to provide quality services that meet the needs of our
                     clients. We focus on delivering
-                    excellence and building lasting relationships.Discover Our Popular
+                    excellence and building lasting relationships. Discover Our Popular
                     Courses. It is a long established fact that a reader will be distracted by the readable <br>
-                    content of a page when looking at its layout. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. At ratione dicta animi nisi facere inventore assumenda nemo labore aliquid voluptas, deleniti
+                    content of a page when looking at its layout. Lorem ipsum dolor sit a met connecter adipescent
+                    elite. At rationed dicta animi nisi facer inventor assumed nemo labore a liquid volutes, selenite
 
 
                 </p>
@@ -135,24 +182,25 @@
     <section id="contact" class="container py-5">
         <h2 class="text-center mb-4">Contact Us</h2>
         <form>
+
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required>
+                <input type="text" class="form-control shadow-lg" id="name" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control shadow-lg" id="email" required>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
+                <textarea class="form-control shadow-lg" id="message " rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary shadow-lg">Submit</button>
         </form>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
+    <footer class=" container bg-primary text-white py-4 rounded">
         <div class="container text-center">
             <p>Follow us on:</p>
             <!-- Facebook -->
@@ -173,12 +221,14 @@
                 <i class="fab fa-linkedin-in"></i>
             </a>
 
-            <p class="mt-3">&copy; 2024 Educational Website. All rights reserved.</p>
+            <p class="mt-3">&copy; 2024 Educational Website by Nazmul Hasan. All rights reserved.</p>
         </div>
     </footer>
 
     <!-- Bootstrap JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+
+    </script>
 </body>
 
 </html>
