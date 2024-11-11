@@ -1,4 +1,5 @@
 This is Educational Website.
+Live Link: https://educational-website9138269.netlify.app/
 
 In this site i have used bootstrap & html. This site have some interactive online Couses that can purchase & upgrade your skills. There have RecatJs,NodeJs,NextJs,Lravel,MERN Stack etc. avaluable courses. There have Section Navbar,Hero Section,Course Content Section, About Section, Contact Details Section, Footer Section.
 I have used this project BootStrap.
