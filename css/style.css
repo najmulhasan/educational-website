@@ -1,11 +1,11 @@
+body {
+    font-family: "Roboto", serif;
+}
+
 .para {
     text-align: justify;
 }
 
 .card-text {
     text-align: justify;
-}
-
-.fa-cart-shopping {
-    size: 2rem;
 }
